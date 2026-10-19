@@ -1,0 +1,78 @@
+header{
+    background-image: url('../images/images-1-cupcakes.jfif');
+    background-size: cover;
+    height: 90vh;
+}
+
+#inicio-titulo{
+    color: black;
+    margin-top: 40%;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color:pink;
+}
+
+
+.card {
+    max-width: 150px;
+    margin: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+.tarjeta-pastel {
+  max-width: 700px !important;
+  margin: 20px auto;
+}
+
+.tarjeta-pastel .card-img {
+  width: 100%;
+  height: auto;
+  object-fit:contain;
+  object-position: center;
+}
+
+.banner-productos {
+  background-image: url("../images/unicornio.png");  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-col {
+  padding: 40px;
+}
+
+.banner-col h2 {
+  font-size: 1.8rem;
+  color: #2b3a4a;
+  max-width: 50%;      
+}
+
+.precio {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.btn-rosa { background-color: #f77fa6; color: #fff; }
+.btn-azul { background-color: #5bbad5; color: #fff; }
+
+.card67{
+
+    filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.4));
+    transition: 0.5s ease;
+}
+.card67:hover{
+    transform: scale(150%);
+}
